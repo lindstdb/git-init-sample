@@ -16,16 +16,9 @@
 }
 
 h2{
-    position: relative;
-    top: 150px;
+    margin: 20px;
     text-align: center;
-    color: darkred;
-}
-
-h3{
-    text-underline-offset: 5px, solid, black;
-    text-shadow: blue;
-    color: chartreuse;
+    color: white;
 }
 
 body {
@@ -37,14 +30,13 @@ body {
     background-position: center;
 }
 
-pic{
+.photo{
     text-align: center;
-    border: 5px;
+    border: 20px;
     padding: 20px;
     position:relative;
     top: 150px;
     border-color: black;
-    size-adjust:inherit;
     align-items: center;
 }
 
@@ -78,8 +70,13 @@ form .submit:hover
 }
 
 .contact-form{
-    color: white;
+    color: orange;
 }
 
+.form-title{
+    margin:20px;
+    color:white;
+    font-size: 20px;
+}
 
 
